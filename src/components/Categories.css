@@ -1,0 +1,22 @@
+.btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0 2rem;
+}
+
+.btn-container button {
+  font-size: 1.2rem;
+  border: none;
+  background-color: #fff;
+  color: #53736a;
+  cursor: pointer;
+  padding: 0.3rem 0.6rem;
+  border-radius: 3px;
+  text-transform: capitalize;
+}
+
+.btn-container button:hover {
+  background-color: #a8b545;
+  color: #fff;
+}

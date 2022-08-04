@@ -1,0 +1,36 @@
+.main-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  margin-top: 4rem;
+  padding: 0 8rem;
+  gap: 2.5rem;
+}
+.menu-container {
+  display: flex;
+}
+
+.menu-container img {
+  height: 150px;
+  width: 225px;
+  object-fit: cover;
+  border: 3px solid #a8b545;
+  border-radius: 3px;
+}
+
+.info {
+  margin-left: 1rem;
+}
+
+.info header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px dotted #a8b545;
+  text-transform: capitalize;
+}
+
+.info p {
+  width: 350px;
+  margin-top: 1rem;
+  color: #53736a;
+}

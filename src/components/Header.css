@@ -1,0 +1,20 @@
+.header-coontainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem;
+}
+
+.header-coontainer h1 {
+  font-size: 2.5rem;
+  margin: 1rem 2rem;
+  color: #024554;
+  user-select: none;
+}
+
+.header-coontainer .underline {
+  width: 5rem;
+  height: 0.2rem;
+  background-color: #53736a;
+}
